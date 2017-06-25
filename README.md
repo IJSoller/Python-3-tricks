@@ -26,3 +26,5 @@ for a_list in list_with_lists:
 d = {'x': 9, 'y': 10, 'z': 20}
 for key in d:
   if d[key] == 10 #use list[key]
+  
+evens_to_50 = [i for i in range(51) if i % 2 == 0] #only prints the even numbers from 1 to 50
